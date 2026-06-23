@@ -344,10 +344,7 @@
     /* MOBILE */
 
     @media screen and (max-width: 768px) {
-
-       @media screen and (max-width: 768px) {
-
-    body {
+body {
         font-size: 10px;
     }
 
@@ -357,15 +354,15 @@
     }
 
     .nav__s2 {
-        flex-wrap: wrap;
-        justify-content: center;
-        margin-left: 0;
+      display: none;
     }
 
     .nav__s3 {
         display: none;
     }
-
+.nav__s4{
+    display: none;
+}
     .search h1 {
         font-size: 30px;
     }
@@ -388,8 +385,8 @@
         flex-direction: column;
         align-items: center;
     }
-
-    .interests h2 {
+     .interests h2 {
         display: none;
+
     }
-}
+       }
